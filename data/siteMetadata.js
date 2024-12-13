@@ -5,20 +5,15 @@ const siteMetadata = {
   headerTitle: 'The New Hobby Farmer',
   description:
     'Embracing the transition to managing a small holding in a Gippsland hobby farm has certainly come with its challenges, but the rewards are truly worth it. This is a place for sharing the stories and lessons learned along the way as a new hobby farmer.',
-  language: 'en-us',
+  language: 'en-au',
   theme: 'system', // system, dark or light
   siteUrl: 'https://newhobbyfarmer.site',
   //siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
   siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo.png`,
   socialBanner: `${process.env.BASE_PATH || ''}/static/images/twitter-card.png`,
-  email: 'address@yoursite.com',
-  github: 'https://github.com',
-  x: 'https://twitter.com/x',
-  facebook: 'https://facebook.com',
-  youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
-  instagram: 'https://www.instagram.com',
-  locale: 'en-US',
+  email: 'thenewhobbyfarmer@gmail.com',
+  instagram: 'https://www.instagram.com/newhobbyfarmer',
+  locale: 'en-AU',
   // set to true if you want a navbar fixed to the top
   stickyNav: false,
   analytics: {
