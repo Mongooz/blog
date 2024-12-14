@@ -10,7 +10,7 @@ const siteMetadata = {
   siteUrl: 'https://newhobbyfarmer.site',
   //siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
   siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo.png`,
-  socialBanner: `${process.env.BASE_PATH || ''}/static/images/twitter-card.png`,
+  socialBanner: `${process.env.BASE_PATH || ''}/static/images/logo.png`,
   email: 'thenewhobbyfarmer@gmail.com',
   instagram: 'https://www.instagram.com/newhobbyfarmer',
   locale: 'en-AU',
