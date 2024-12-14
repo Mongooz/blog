@@ -3623,12 +3623,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^19.0.1":
-  version: 19.0.1
-  resolution: "@types/react@npm:19.0.1"
+"@types/prop-types@npm:*":
+  version: 15.7.13
+  resolution: "@types/prop-types@npm:15.7.13"
+  checksum: 8935cad87c683c665d09a055919d617fe951cb3b2d5c00544e3a913f861a2bd8d2145b51c9aa6d2457d19f3107ab40784c40205e757232f6a80cc8b1c815513c
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:^18.2.73":
+  version: 18.3.12
+  resolution: "@types/react@npm:18.3.12"
   dependencies:
+    "@types/prop-types": "*"
     csstype: ^3.0.2
-  checksum: e5e05cdf5fc53804e94548ca4e139102fffaab95d4c19be821d30d81dbab75ca3e30b72f2e2e750b90fcb535058cb694c4403402f14eb8a19a1282629c8222d8
+  checksum: 4ab1577a8c2105a5e316536f724117c90eee5f4bd5c137fc82a2253d8c1fd299dedaa07e8dfc95d6e2f04a4be3cb8b0e1b06098c6233ebd55c508d88099395b7
   languageName: node
   linkType: hard
 
@@ -9905,10 +9913,12 @@ react-dom@rc:
   languageName: node
   linkType: hard
 
-"react@npm:rc":
-  version: 19.0.0-rc.1
-  resolution: "react@npm:19.0.0-rc.1"
-  checksum: 3b70c4d16038cc869a91a6a243414706ba3f012e0043c07a47d49ab09837421da65ef1c842d80039344513aafc844d33f146e175cd72e41bef83a4e3ce1b08f3
+react@rc:
+  version: 18.3.1
+  resolution: "react@npm:18.3.1"
+  dependencies:
+    loose-envify: ^1.1.0
+  checksum: a27bcfa8ff7c15a1e50244ad0d0c1cb2ad4375eeffefd266a64889beea6f6b64c4966c9b37d14ee32d6c9fcd5aa6ba183b6988167ab4d127d13e7cb5b386a376
   languageName: node
   linkType: hard
 
@@ -11496,7 +11506,7 @@ react-dom@rc:
     "@tailwindcss/forms": ^0.5.9
     "@tailwindcss/typography": ^0.5.15
     "@types/mdx": ^2.0.12
-    "@types/react": ^19.0.1
+    "@types/react": ^18.2.73
     "@typescript-eslint/eslint-plugin": ^8.18.0
     "@typescript-eslint/parser": ^8.12.0
     autoprefixer: ^10.4.13
