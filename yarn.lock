@@ -9964,15 +9964,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-react-dom@rc:
-  version: 18.3.1
-  resolution: "react-dom@npm:18.3.1"
+"react-dom@npm:rc":
+  version: 19.0.0-rc.1
+  resolution: "react-dom@npm:19.0.0-rc.1"
   dependencies:
-    loose-envify: ^1.1.0
-    scheduler: ^0.23.2
+    scheduler: 0.25.0-rc.1
   peerDependencies:
-    react: ^18.3.1
-  checksum: 298954ecd8f78288dcaece05e88b570014d8f6dce5db6f66e6ee91448debeb59dcd31561dddb354eee47e6c1bb234669459060deb238ed0213497146e555a0b9
+    react: 19.0.0-rc.1
+  checksum: 63217365bfba7c558bd68bad46af10a76fbe241154f0f7fedb34820d6841ff340396e506cc84c29d96dccea339f14bf8782d729e803437b475541edf550d54ab
   languageName: node
   linkType: hard
 
@@ -10943,12 +10942,10 @@ react@rc:
   languageName: node
   linkType: hard
 
-"scheduler@npm:^0.23.2":
-  version: 0.23.2
-  resolution: "scheduler@npm:0.23.2"
-  dependencies:
-    loose-envify: ^1.1.0
-  checksum: 3e82d1f419e240ef6219d794ff29c7ee415fbdc19e038f680a10c067108e06284f1847450a210b29bbaf97b9d8a97ced5f624c31c681248ac84c80d56ad5a2c4
+"scheduler@npm:0.25.0-rc.1":
+  version: 0.25.0-rc.1
+  resolution: "scheduler@npm:0.25.0-rc.1"
+  checksum: 03b56e352ab835ee4d2e55525380f622807e6d2407291474e21bdb70e8135da0e0d7bec3e86c7b0d68d83ffa6645799e947ce34e1bc91c982f4d6e5285cfedcd
   languageName: node
   linkType: hard
 
