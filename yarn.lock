@@ -2665,12 +2665,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/eslint-plugin-next@npm:15.0.2":
-  version: 15.0.2
-  resolution: "@next/eslint-plugin-next@npm:15.0.2"
+"@next/eslint-plugin-next@npm:15.1.0":
+  version: 15.1.0
+  resolution: "@next/eslint-plugin-next@npm:15.1.0"
   dependencies:
     fast-glob: 3.3.1
-  checksum: 205d4483c924cd3595c914512236d588736c230392fca6d24312d54fb7ecda86f336978a4d6dec41d681e14a0a7a39b57752e64188281bb6b589eed92251ed93
+  checksum: 18fa23986383aee3d7b475822b30f8c4bfac0566ec2985c195ec860336cb5b7b93c3b5b9ab93034b4c1177161c4fbc9d23819e1b1fc932a170f217a48f8b8c6b
   languageName: node
   linkType: hard
 
@@ -5669,11 +5669,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-next@npm:15.0.2":
-  version: 15.0.2
-  resolution: "eslint-config-next@npm:15.0.2"
+"eslint-config-next@npm:15.1.0":
+  version: 15.1.0
+  resolution: "eslint-config-next@npm:15.1.0"
   dependencies:
-    "@next/eslint-plugin-next": 15.0.2
+    "@next/eslint-plugin-next": 15.1.0
     "@rushstack/eslint-patch": ^1.10.3
     "@typescript-eslint/eslint-plugin": ^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0
     "@typescript-eslint/parser": ^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0
@@ -5681,7 +5681,7 @@ __metadata:
     eslint-import-resolver-typescript: ^3.5.2
     eslint-plugin-import: ^2.31.0
     eslint-plugin-jsx-a11y: ^6.10.0
-    eslint-plugin-react: ^7.35.0
+    eslint-plugin-react: ^7.37.0
     eslint-plugin-react-hooks: ^5.0.0
   peerDependencies:
     eslint: ^7.23.0 || ^8.0.0 || ^9.0.0
@@ -5689,7 +5689,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: b051a8d2ea95c6477cb8c3df14c5cf658e2a394912f2a70faff4cdd61f03d404f0895dc67a5efcf904d956f4281f17a1446bc20ed82c22a13548bbe76737810e
+  checksum: 44051878b4bfefe75339cacacc446b31d017a12835ca1ca01d86686f9bb792b2cd1c024960afe107c37225ea90ce8fbfccf26919321d79c5456dd202563941f2
   languageName: node
   linkType: hard
 
@@ -5835,7 +5835,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react@npm:^7.35.0":
+"eslint-plugin-react@npm:^7.37.0":
   version: 7.37.2
   resolution: "eslint-plugin-react@npm:7.37.2"
   dependencies:
@@ -11546,7 +11546,7 @@ react@rc:
     cross-env: ^7.0.3
     esbuild: 0.20.2
     eslint: ^9.17.0
-    eslint-config-next: 15.0.2
+    eslint-config-next: 15.1.0
     eslint-config-prettier: ^9.1.0
     eslint-plugin-prettier: ^5.2.0
     github-slugger: ^2.0.0
