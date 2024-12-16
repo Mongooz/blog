@@ -72,10 +72,10 @@ module.exports = () => {
       dirs: ['app', 'components', 'layouts', 'scripts'],
     },
     images: {
-      remotePatterns: [
+      localPatterns: [
         {
-          protocol: 'https',
-          hostname: 'picsum.photos',
+          pathname: '/static/images/**',
+          search: '',
         },
       ],
       unoptimized,
