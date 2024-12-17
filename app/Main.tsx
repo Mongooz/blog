@@ -27,7 +27,7 @@ export default function Home({ posts }) {
         </div>
         <div>
           <Image
-            className="rounded-lg"
+            className="rounded"
             src="/static/images/banner.jpg"
             alt={'The beautiful view from our patio overlooking the paddocks and the dam'}
             width={3303}
