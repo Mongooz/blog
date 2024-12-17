@@ -131,11 +131,11 @@ export default function ListLayoutWithTags({
                         <dl className="order-3 md:order-1 md:col-span-3">
                           <div className="space-y-3">
                             <Image
-                              className="w-32 rounded-lg"
+                              className="h-32 w-32 rounded-lg"
                               src={imageSource}
                               alt={title}
-                              width={64}
-                              height={64}
+                              width={128}
+                              height={128}
                             />
                           </div>
                         </dl>
