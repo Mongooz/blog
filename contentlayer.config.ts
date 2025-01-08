@@ -1,7 +1,6 @@
 import { defineDocumentType, ComputedFields, makeSource } from 'contentlayer2/source-files'
-import { writeFileSync } from 'fs'
+import { writeFileSync, readdirSync } from 'fs'
 import readingTime from 'reading-time'
-import { slug } from 'github-slugger'
 import path from 'path'
 import { fromHtmlIsomorphic } from 'hast-util-from-html-isomorphic'
 // Remark packages
@@ -76,6 +75,41 @@ function createTagCount(allBlogs) {
     }
   })
   writeFileSync('./app/tag-data.json', JSON.stringify(tagCount))
+}
+
+/**
+ * Write the image metadata to a file
+ */
+function createImageData(allBlogs) {
+  const body = JSON.stringify(allBlogs.map(b => b.body.code));
+  const regexp = /{alt:[\\]*"([^"^\\]*)[\\]*",src:[\\]*"([^"^\\]*)[\\]*",width:[\\]*"([^"^\\]*)[\\]*",height:[\\]*"([^"^\\]*)[\\]*"}/g
+  const matches = [...body.matchAll(regexp)]
+  const imageData = matches
+    .filter(image => Number(image[3]) > 800)
+    .map(image =>
+    ({
+      title: image[1],
+      imgSrc: image[2],
+      width: image[3],
+      height: image[4]
+    }))
+
+  const galleryPath = "static/images/gallery"
+  const files = readdirSync(`./public/static/images/gallery`) as string[];
+  const allImages = files.map(filename => ({
+    title: unslug(filename),
+    width: getWidth(filename),
+    height: getHeight(filename),
+    imgSrc: `/${galleryPath}/${filename.replaceAll('\\', '/')}`
+  }));
+  
+  const allImageData = imageData.concat(allImages);
+  const filenames = allImageData.map(image => image.imgSrc)
+  const uniqueArray = allImageData.filter(function(item, pos) {
+    return filenames.indexOf(item.imgSrc) == pos;
+  })
+
+  writeFileSync('./app/image-data.json', JSON.stringify(uniqueArray)) 
 }
 
 function createSearchIndex(allBlogs) {
@@ -181,5 +215,30 @@ export default makeSource({
     const { allBlogs } = await importData()
     createTagCount(allBlogs)
     createSearchIndex(allBlogs)
+    createImageData(allBlogs)
   },
 })
+function unslug(filename: string): string {
+  let name = path.parse(filename).name
+  name = name.replaceAll('-', ' ').substring(name.indexOf('_') + 1)
+  return name[0].toLocaleUpperCase() + name.substring(1);
+}
+
+function getDimensionsFromFilename(filename: string): number[] {
+  let name = path.parse(filename).name
+  const end = name.indexOf('_');
+  if (end <= 0)
+    return [0,0];
+
+  const dimensions = name.substring(0, end).split('-')
+  return dimensions.map(d => Number(d));
+}
+
+function getWidth(filename: string): number {
+  return getDimensionsFromFilename(filename)[0]
+}
+
+
+function getHeight(filename: string): number {
+  return getDimensionsFromFilename(filename)[1]
+}

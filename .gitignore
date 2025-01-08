@@ -28,6 +28,10 @@ public/sitemap.xml
 # search
 /public/search.json
 
+# generated metadata
+app/image-data.json
+app/tag-data.json
+
 # misc
 .DS_Store
 
