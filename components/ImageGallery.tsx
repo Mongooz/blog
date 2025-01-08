@@ -34,6 +34,7 @@ export default function ImageGallery({ images }) {
           width: (image.width || 1024).toString(),
           height: (image.height || 768).toString(),
           alt: image.title,
+          subHtml: `<h3>${image.title}</h3>`
         }))}
       ></LightGalleryComponent>
 
