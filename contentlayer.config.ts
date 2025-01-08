@@ -90,8 +90,8 @@ function createImageData(allBlogs) {
     ({
       title: image[1],
       imgSrc: image[2],
-      width: image[3],
-      height: image[4]
+      width: Number(image[3]),
+      height: Number(image[4])
     }))
 
   const galleryPath = "static/images/gallery"
