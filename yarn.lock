@@ -7172,14 +7172,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"image-size@npm:1.1.1":
-  version: 1.1.1
-  resolution: "image-size@npm:1.1.1"
+"image-size@npm:1.2.0":
+  version: 1.2.0
+  resolution: "image-size@npm:1.2.0"
   dependencies:
     queue: 6.0.2
   bin:
     image-size: bin/image-size.js
-  checksum: 23b3a515dded89e7f967d52b885b430d6a5a903da954fce703130bfb6069d738d80e6588efd29acfaf5b6933424a56535aa7bf06867e4ebd0250c2ee51f19a4a
+  checksum: 6264ae22ea6f349480c5305f84cd1e64f9757442abf4baac79e29519cba38f7ccab90488996e5e4d0c232b2f44dc720576fdf3e7e63c161e49eb1d099e563f82
   languageName: node
   linkType: hard
 
@@ -11657,7 +11657,7 @@ react@rc:
     gray-matter: ^4.0.2
     hast-util-from-html-isomorphic: ^2.0.0
     husky: ^9.0.0
-    image-size: 1.1.1
+    image-size: 1.2.0
     lightgallery: ^2.8.2
     lint-staged: ^15.2.11
     next: 15.1.6
