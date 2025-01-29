@@ -54,13 +54,15 @@ export default function Home({ posts }) {
                       <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
                         <time dateTime={date}>{formatDate(date, siteMetadata.locale)}</time>
                       </dd>
-                      <Image
-                        className="h-32 w-32 rounded-lg"
-                        src={imageSource}
-                        alt={title}
-                        width={3303}
-                        height={939}
-                      />
+                      <Link href={`/blog/${slug}`}>
+                        <Image
+                          className="h-32 w-32 rounded-lg"
+                          src={imageSource}
+                          alt={title}
+                          width={3303}
+                          height={939}
+                        />
+                      </Link>
                     </dl>
                     <div className="space-y-2 xl:col-span-4">
                       <div className="space-y-2">
