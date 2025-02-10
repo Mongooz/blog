@@ -2132,10 +2132,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/js@npm:9.17.0, @eslint/js@npm:^9.17.0":
+"@eslint/js@npm:9.17.0":
   version: 9.17.0
   resolution: "@eslint/js@npm:9.17.0"
   checksum: b68a14ff518ffa12e3b85fa9c72b818faeff092285acfbf02da2d0fb12a681b76651638881e98845f2df2ed346ed0d33faeb1d9caac163daf232c223b7efe89c
+  languageName: node
+  linkType: hard
+
+"@eslint/js@npm:^9.20.0":
+  version: 9.20.0
+  resolution: "@eslint/js@npm:9.20.0"
+  checksum: e49dcbcea1a7892222988ba410b3f1e2b756177558f3f11fa3627682c3aca7585f8124c128711035e176daf56f82b4af47dc5655ca7a825057451607e42e5d13
   languageName: node
   linkType: hard
 
@@ -11632,7 +11639,7 @@ react@rc:
   resolution: "tailwind-nextjs-starter-blog@workspace:."
   dependencies:
     "@eslint/eslintrc": ^3.2.0
-    "@eslint/js": ^9.17.0
+    "@eslint/js": ^9.20.0
     "@headlessui/react": 2.2.0
     "@next/bundle-analyzer": 15.1.3
     "@svgr/webpack": ^8.0.1
