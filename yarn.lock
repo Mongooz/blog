@@ -9473,7 +9473,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next-contentlayer2@npm:0.5.3, next-contentlayer2@npm:^0.5.3":
+"next-contentlayer2@npm:0.5.4":
+  version: 0.5.4
+  resolution: "next-contentlayer2@npm:0.5.4"
+  dependencies:
+    "@contentlayer2/core": 0.5.4
+    "@contentlayer2/utils": 0.5.4
+  peerDependencies:
+    contentlayer2: 0.5.4
+    next: ">=12.0.0"
+    react: ^18 || ^19 || ^19.0.0-rc
+    react-dom: ^18 || ^19 || ^19.0.0-rc
+  checksum: 69be76af50933fe98da5a3904f4f46f27b842ebd3834dcd3b27d94dd5cb28af3f1395dd0925918f3da89ced9f19d2e8e254011327a8dbdd6a26c53f47f135bde
+  languageName: node
+  linkType: hard
+
+"next-contentlayer2@npm:^0.5.3":
   version: 0.5.3
   resolution: "next-contentlayer2@npm:0.5.3"
   dependencies:
@@ -11995,7 +12010,7 @@ react@rc:
     lightgallery: ^2.8.2
     lint-staged: ^15.4.3
     next: 15.1.6
-    next-contentlayer2: 0.5.3
+    next-contentlayer2: 0.5.4
     next-themes: ^0.3.0
     pliny: 0.4.0
     postcss: ^8.4.49
