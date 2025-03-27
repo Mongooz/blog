@@ -16,28 +16,28 @@ export default function Home({ posts }) {
   )
   return (
     <>
-      <div className="divide-y divide-gray-200 dark:divide-gray-700">
-        <div className="space-y-2 pt-6 pb-8 md:space-y-5">
-          <h1 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 dark:text-gray-100">
+      <div className="divide-gray-200 dark:divide-gray-700">
+        <div className="relative">
+          <h1 className="sm:absolute mb-5  sm:m-2 sm:text-center top-0 sm:top-12 sm:left-0 text-4xl sm:text-2xl sm:[text-shadow:_0_2px_4px_rgb(0_0_0_/_0.8)] text-gray-900 sm:text-gray-100 sm:text-4xl md:text-6xl dark:text-gray-100">
             Discover the Charm of the Hobby Farm
           </h1>
+          <Image
+              className="rounded-sm"
+              src="/static/images/banner.jpg"
+              alt={'The beautiful view from our patio overlooking the paddocks and the dam'}
+              width={3303}
+              height={939}
+            />
+        </div>
+        <div>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
             {siteMetadata.description}
           </p>
         </div>
-        <div>
-          <Image
-            className="rounded-sm"
-            src="/static/images/banner.jpg"
-            alt={'The beautiful view from our patio overlooking the paddocks and the dam'}
-            width={3303}
-            height={939}
-          />
-        </div>
-        <div className="space-y-2 pt-6 pb-8 md:space-y-5">
-          <h1 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 dark:text-gray-100">
+        <div className="space-y-2 md:space-y-5">
+          <h2 className="text-2xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-2xl sm:leading-10 md:text-4xl md:leading-14 dark:text-gray-100">
             Personal stories
-          </h1>
+          </h2>
         </div>
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
           {!ourStoryPosts.length && 'No posts found.'}
@@ -56,11 +56,11 @@ export default function Home({ posts }) {
                       </dd>
                       <Link href={`/blog/${slug}`}>
                         <Image
-                          className="h-32 w-32 rounded-lg"
+                          className="h-32 w-32 rounded-lg transition duration-300 ease-in-out hover:scale-110"
                           src={imageSource}
                           alt={title}
-                          width={3303}
-                          height={939}
+                          width={128}
+                          height={128}
                         />
                       </Link>
                     </dl>
@@ -70,7 +70,7 @@ export default function Home({ posts }) {
                           <h2 className="text-2xl leading-8 font-bold tracking-tight">
                             <Link
                               href={`/blog/${slug}`}
-                              className="text-gray-900 dark:text-gray-100"
+                              className="text-primary-900 dark:text-primary-100"
                             >
                               {title}
                             </Link>
@@ -97,10 +97,10 @@ export default function Home({ posts }) {
           })}
         </ul>
 
-        <div className="space-y-2 pt-6 pb-8 md:space-y-5">
-          <h1 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 dark:text-gray-100">
+        <div className="space-y-2 md:space-y-5">
+          <h2 className="text-2xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-2xl sm:leading-10 md:text-4xl md:leading-14 dark:text-gray-100">
             Other posts
-          </h1>
+          </h2>
         </div>
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
           {!otherPosts.length && 'No posts found.'}
@@ -109,7 +109,7 @@ export default function Home({ posts }) {
             const imageSource = (images && images[0]?.trimEnd()) || '/static/images/title.png'
 
             return (
-              <li key={slug} className="py-6">
+              <li key={slug} className="py-2">
                 <article>
                   <div className="space-y-2 xl:grid xl:grid-cols-5 xl:items-baseline xl:space-y-0">
                     <dl className="space-y-2">
