@@ -18,7 +18,7 @@ export default function Home({ posts }) {
     <>
       <div className="divide-gray-200 dark:divide-gray-700">
         <div className="relative">
-          <h1 className="top-0 m-5 text-4xl text-gray-900 sm:absolute sm:top-12 sm:left-0 sm:m-2 sm:text-center sm:text-2xl sm:text-4xl sm:text-gray-100 sm:[text-shadow:_0_2px_4px_rgb(0_0_0_/_0.8)] md:text-6xl dark:text-gray-100">
+          <h1 className="top-0 mb-5 mt-8 text-4xl text-gray-900 sm:absolute sm:top-12 sm:left-0 sm:m-2 sm:text-center sm:text-2xl sm:text-4xl sm:text-gray-100 sm:[text-shadow:_0_2px_4px_rgb(0_0_0_/_0.8)] md:text-6xl dark:text-gray-100">
             Discover the Charm of the Hobby Farm
           </h1>
           <Image
