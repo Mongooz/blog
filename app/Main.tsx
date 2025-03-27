@@ -18,16 +18,16 @@ export default function Home({ posts }) {
     <>
       <div className="divide-gray-200 dark:divide-gray-700">
         <div className="relative">
-          <h1 className="sm:absolute mb-5  sm:m-2 sm:text-center top-0 sm:top-12 sm:left-0 text-4xl sm:text-2xl sm:[text-shadow:_0_2px_4px_rgb(0_0_0_/_0.8)] text-gray-900 sm:text-gray-100 sm:text-4xl md:text-6xl dark:text-gray-100">
+          <h1 className="top-0 mb-5 text-4xl text-gray-900 sm:absolute sm:top-12 sm:left-0 sm:m-2 sm:text-center sm:text-2xl sm:text-4xl sm:text-gray-100 sm:[text-shadow:_0_2px_4px_rgb(0_0_0_/_0.8)] md:text-6xl dark:text-gray-100">
             Discover the Charm of the Hobby Farm
           </h1>
           <Image
-              className="rounded-sm"
-              src="/static/images/banner.jpg"
-              alt={'The beautiful view from our patio overlooking the paddocks and the dam'}
-              width={3303}
-              height={939}
-            />
+            className="rounded-sm"
+            src="/static/images/banner.jpg"
+            alt={'The beautiful view from our patio overlooking the paddocks and the dam'}
+            width={3303}
+            height={939}
+          />
         </div>
         <div>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
