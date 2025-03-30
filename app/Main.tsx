@@ -16,28 +16,38 @@ export default function Home({ posts }) {
   )
   return (
     <>
-      <div className="divide-y divide-gray-200 dark:divide-gray-700">
-        <div className="space-y-2 pt-6 pb-8 md:space-y-5">
-          <h1 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 dark:text-gray-100">
-            Discover the Charm of the Hobby Farm
-          </h1>
-          <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
+      <header className="my-6">
+        <div className="w-full bg-[url(/static/images/banner.jpg)] bg-cover bg-center">
+          <div className="flex h-full w-full items-center justify-center bg-black/30 py-8 backdrop-opacity-30">
+            <div className="text-center">
+              <div className="container mx-auto px-4">
+                <div className="mx-auto max-w-4xl text-center">
+                  <h2 className="text-4xl font-bold text-gray-100 lg:text-5xl">
+                    The New Hobby Farmer Blog
+                  </h2>
+                  <Link
+                    href={`/blog`}
+                    className="hover:bg-primary-100 mt-8 inline-block w-full rounded border-2 border-transparent bg-gray-50 px-8 py-4 text-sm font-bold text-gray-800 uppercase transition duration-200 md:mr-6 md:w-auto"
+                  >
+                    Discover the charm of the hobby farm
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div className="divide-gray-200 dark:divide-gray-700">
+        <div>
+          <p className="text-lg leading-7 text-gray-700 dark:text-gray-300">
             {siteMetadata.description}
           </p>
         </div>
-        <div>
-          <Image
-            className="rounded-sm"
-            src="/static/images/banner.jpg"
-            alt={'The beautiful view from our patio overlooking the paddocks and the dam'}
-            width={3303}
-            height={939}
-          />
-        </div>
-        <div className="space-y-2 pt-6 pb-8 md:space-y-5">
-          <h1 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 dark:text-gray-100">
+        <div className="space-y-2 md:space-y-5">
+          <h2 className="text-2xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-2xl sm:leading-10 md:text-4xl md:leading-14 dark:text-gray-100">
             Personal stories
-          </h1>
+          </h2>
         </div>
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
           {!ourStoryPosts.length && 'No posts found.'}
@@ -56,11 +66,11 @@ export default function Home({ posts }) {
                       </dd>
                       <Link href={`/blog/${slug}`}>
                         <Image
-                          className="h-32 w-32 rounded-lg"
+                          className="h-32 w-32 rounded-lg transition duration-300 ease-in-out hover:scale-110"
                           src={imageSource}
                           alt={title}
-                          width={3303}
-                          height={939}
+                          width={128}
+                          height={128}
                         />
                       </Link>
                     </dl>
@@ -70,7 +80,7 @@ export default function Home({ posts }) {
                           <h2 className="text-2xl leading-8 font-bold tracking-tight">
                             <Link
                               href={`/blog/${slug}`}
-                              className="text-gray-900 dark:text-gray-100"
+                              className="text-primary-900 dark:text-primary-100"
                             >
                               {title}
                             </Link>
@@ -97,10 +107,10 @@ export default function Home({ posts }) {
           })}
         </ul>
 
-        <div className="space-y-2 pt-6 pb-8 md:space-y-5">
-          <h1 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 dark:text-gray-100">
+        <div className="space-y-2 md:space-y-5">
+          <h2 className="text-2xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-2xl sm:leading-10 md:text-4xl md:leading-14 dark:text-gray-100">
             Other posts
-          </h1>
+          </h2>
         </div>
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
           {!otherPosts.length && 'No posts found.'}
@@ -109,7 +119,7 @@ export default function Home({ posts }) {
             const imageSource = (images && images[0]?.trimEnd()) || '/static/images/title.png'
 
             return (
-              <li key={slug} className="py-6">
+              <li key={slug} className="py-2">
                 <article>
                   <div className="space-y-2 xl:grid xl:grid-cols-5 xl:items-baseline xl:space-y-0">
                     <dl className="space-y-2">
