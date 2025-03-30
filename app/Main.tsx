@@ -16,21 +16,31 @@ export default function Home({ posts }) {
   )
   return (
     <>
-      <div className="divide-gray-200 dark:divide-gray-700">
-        <div className="relative">
-          <h1 className="top-0 mb-5 text-4xl text-gray-900 sm:absolute sm:top-12 sm:left-0 sm:m-2 sm:text-center sm:text-2xl sm:text-4xl sm:text-gray-100 sm:[text-shadow:_0_2px_4px_rgb(0_0_0_/_0.8)] md:text-6xl dark:text-gray-100">
-            Discover the Charm of the Hobby Farm
-          </h1>
-          <Image
-            className="rounded-sm"
-            src="/static/images/banner.jpg"
-            alt={'The beautiful view from our patio overlooking the paddocks and the dam'}
-            width={3303}
-            height={939}
-          />
+      <header className="my-6">
+        <div className="w-full bg-[url(/static/images/banner.jpg)] bg-cover bg-center">
+          <div className="flex h-full w-full items-center justify-center bg-black/30 py-8 backdrop-opacity-30">
+            <div className="text-center">
+              <div className="container mx-auto px-4">
+                <div className="mx-auto max-w-4xl text-center">
+                  <h2 className="text-4xl font-bold text-gray-100 lg:text-5xl">
+                    The New Hobby Farmer Blog
+                  </h2>
+                  <Link
+                    href={`/blog`}
+                    className="hover:bg-primary-100 mt-8 inline-block w-full rounded border-2 border-transparent bg-gray-50 px-8 py-4 text-sm font-bold text-gray-800 uppercase transition duration-200 md:mr-6 md:w-auto"
+                  >
+                    Discover the charm of the hobby farm
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </header>
+
+      <div className="divide-gray-200 dark:divide-gray-700">
         <div>
-          <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
+          <p className="text-lg leading-7 text-gray-700 dark:text-gray-300">
             {siteMetadata.description}
           </p>
         </div>
