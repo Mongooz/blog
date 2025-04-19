@@ -82,18 +82,18 @@ function createTagCount(allBlogs) {
  */
 function createImageData(allBlogs) {
   const body = JSON.stringify(allBlogs.map(b => b.body.code));
-  const regexp = /{alt:[\\]*"([^"^\\]*)[\\]*",src:[\\]*"([^"^\\]*)[\\]*",width:[\\]*"([^"^\\]*)[\\]*",height:[\\]*"([^"^\\]*)[\\]*"}/g
+  const regexp = /{alt:[\\]*"([^"^\\]*)[\\]*",([^,]+,)?src:[\\]*"([^"^\\]*)[\\]*",width:[\\]?"?([^"^\\^,]*)[\\]?"?,height:[\\]?"?([^"^\\^,^}]*)[\\]?"?}/g;
   const matches = [...body.matchAll(regexp)]
   const imageData = matches
-    .filter(image => Number(image[3]) > 800)
+    .filter(image => Number(image[4]) > 761)
     .map(image =>
     ({
       title: image[1],
-      imgSrc: image[2],
-      width: Number(image[3]),
-      height: Number(image[4])
+      imgSrc: image[3],
+      width: Number(image[4]),
+      height: Number(image[5])
     }))
-
+  console.log("Found %d images in blog posts for the gallery", imageData.length)
   const galleryPath = "static/images/gallery"
   const files = readdirSync(`./public/static/images/gallery`) as string[];
   const allImages = files.map(filename => ({
