@@ -9,3 +9,8 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "weekly"
+    groups:
+      contentlayer:
+        patterns:
+          - "contentlayer2"
+          - "next-contentlayer2"
