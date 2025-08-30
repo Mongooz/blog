@@ -18,6 +18,11 @@ const generateRssItem = (config, post) => `
     <pubDate>${new Date(post.date).toUTCString()}</pubDate>
     <author>${config.email} (${config.author})</author>
     ${post.tags && post.tags.map((t) => `<category>${t}</category>`).join('')}
+    <image>
+      <url>${config.siteUrl}${post.images[0]}</url>
+      <title>${escape(post.title)}</title>
+      <link>${config.siteUrl}/blog/${post.slug}</link>
+    </image>
   </item>
 `
 
