@@ -8207,10 +8207,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lightgallery@npm:^2.8.2":
-  version: 2.8.3
-  resolution: "lightgallery@npm:2.8.3"
-  checksum: 795bbafdc988c1a3a834ae2716f83db0e77c1f958e83b074a69be1f1bdb990acb5ff27cc95a5b52bae5538009cbfd2a13d3819fdc7f76924061096a5d5bca4a4
+"lightgallery@npm:^2.9.0":
+  version: 2.9.0
+  resolution: "lightgallery@npm:2.9.0"
+  checksum: 04407a8490575f7a35d5e8c1ce2bb21f7764100aa40d66a0ab9790d2b81048ee01a831dbdab098a18443c63db8320fea2d20a4407a90a43cd9a75e8340b78338
   languageName: node
   linkType: hard
 
@@ -12082,7 +12082,7 @@ __metadata:
     hast-util-from-html-isomorphic: ^2.0.0
     husky: ^9.1.7
     image-size: 2.0.2
-    lightgallery: ^2.8.2
+    lightgallery: ^2.9.0
     lint-staged: ^16.2.3
     next: 15.5.4
     next-contentlayer2: 0.5.8
