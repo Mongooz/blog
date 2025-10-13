@@ -2881,12 +2881,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/eslint-plugin-next@npm:15.5.4":
-  version: 15.5.4
-  resolution: "@next/eslint-plugin-next@npm:15.5.4"
+"@next/eslint-plugin-next@npm:15.5.5":
+  version: 15.5.5
+  resolution: "@next/eslint-plugin-next@npm:15.5.5"
   dependencies:
     fast-glob: 3.3.1
-  checksum: 512e14a8ca34939a64fcab4f506f21bd8e68906283b5b943ef9e0f61c6c1bf072fff69db9d04e2d2e7c278fa62160c29450857582cda44516042e2de1568557a
+  checksum: e1ec6001e7ee678702973eac43ec0721ec8a62be3fb0ef8a232b0fe3d21e98f3bf3ad167670f7907bf8e3e8e3f30d4a72ffb11437f0b07b7d880beab612c9b1d
   languageName: node
   linkType: hard
 
@@ -3953,12 +3953,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^19.2.1":
-  version: 19.2.1
-  resolution: "@types/react@npm:19.2.1"
+"@types/react@npm:^19.2.2":
+  version: 19.2.2
+  resolution: "@types/react@npm:19.2.2"
   dependencies:
     csstype: ^3.0.2
-  checksum: 587606729002c9b08b3515f60fe90792dc74dea1ec28336e2544a4b9d8fafca2059c6a50daa57dfdd58a25af036fdf74a67bc24f94e697f01a24c4c1cbad59c6
+  checksum: 7eb2d316dd5a6c02acb416524b50bae932c38d055d26e0f561ca23c009c686d16a2b22fcbb941eecbe2ecb167f119e29b9d0142d9d056dd381352c43413b60da
   languageName: node
   linkType: hard
 
@@ -6109,11 +6109,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-next@npm:15.5.4":
-  version: 15.5.4
-  resolution: "eslint-config-next@npm:15.5.4"
+"eslint-config-next@npm:15.5.5":
+  version: 15.5.5
+  resolution: "eslint-config-next@npm:15.5.5"
   dependencies:
-    "@next/eslint-plugin-next": 15.5.4
+    "@next/eslint-plugin-next": 15.5.5
     "@rushstack/eslint-patch": ^1.10.3
     "@typescript-eslint/eslint-plugin": ^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0
     "@typescript-eslint/parser": ^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0
@@ -6129,7 +6129,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: f2a4a779d0523e655a04fa071e47e7e50ae89cff0194eda023eceb4d4762056e2a9d67900cff35a25c28696de2d91de5bb786eeda1e0f93b6d5c14bd9f5349d7
+  checksum: 8e6fbcacac3b961b666baa31397eb8fbfd48ecbf10e3da97122bb33a3a10e854e7b46bdc6d4b1a46ca7524ff44be071cd783376732adaa09878381951d96d812
   languageName: node
   linkType: hard
 
@@ -8333,20 +8333,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:^16.2.3":
-  version: 16.2.3
-  resolution: "lint-staged@npm:16.2.3"
+"lint-staged@npm:^16.2.4":
+  version: 16.2.4
+  resolution: "lint-staged@npm:16.2.4"
   dependencies:
     commander: ^14.0.1
     listr2: ^9.0.4
     micromatch: ^4.0.8
-    nano-spawn: ^1.0.3
+    nano-spawn: ^2.0.0
     pidtree: ^0.6.0
     string-argv: ^0.3.2
     yaml: ^2.8.1
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: 61b2f8c4fa199f7da6516f927115146bbb25c511760b85fc514aadbecec7e2346bddb4317c41145d31357bde29f23abea37b820144c93b32d2b6bae236829108
+  checksum: e09497196df24f3d9c134ea81e2e470f455c461925a6fa9d72fa409278ddb7d6c8506797268df497f3e908629fd275ef171361d8e0d6581efb2a7131bb7c0a26
   languageName: node
   linkType: hard
 
@@ -9502,10 +9502,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nano-spawn@npm:^1.0.3":
-  version: 1.0.3
-  resolution: "nano-spawn@npm:1.0.3"
-  checksum: 5b3ec4b459e9f015bef29c4fd69736567b775d8744faf6ab2b54907043839eaf15caf8e9f3180de06321224c47d8f67a2ba541c83ff2127af0d7353aa13e8ab2
+"nano-spawn@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "nano-spawn@npm:2.0.0"
+  checksum: 48223f6f5b2ab3f7562d0e6e85abb9b9c4ee52f5c096bd50012c0776664ddc63cd2602c9e4dc3d6cd47ae5189e9c71b51afb2d44b2746d8ca80cb52fc8013904
   languageName: node
   linkType: hard
 
@@ -12065,7 +12065,7 @@ __metadata:
     "@tailwindcss/postcss": next
     "@tailwindcss/typography": ^0.5.19
     "@types/mdx": ^2.0.12
-    "@types/react": ^19.2.1
+    "@types/react": ^19.2.2
     "@typescript-eslint/eslint-plugin": ^8.46.0
     "@typescript-eslint/parser": ^8.46.0
     "@vercel/analytics": ^1.5.0
@@ -12075,7 +12075,7 @@ __metadata:
     cross-env: ^10.1.0
     esbuild: 0.25.10
     eslint: ^9.37.0
-    eslint-config-next: 15.5.4
+    eslint-config-next: 15.5.5
     eslint-config-prettier: ^10.1.8
     eslint-plugin-prettier: ^5.5.4
     github-slugger: ^2.0.0
@@ -12085,7 +12085,7 @@ __metadata:
     husky: ^9.1.7
     image-size: 2.0.2
     lightgallery: ^2.9.0
-    lint-staged: ^16.2.3
+    lint-staged: ^16.2.4
     next: 15.5.4
     next-contentlayer2: 0.5.8
     next-themes: ^0.4.6
