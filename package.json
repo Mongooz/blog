@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@headlessui/react": "2.2.9",
-    "@next/bundle-analyzer": "15.5.4",
+    "@next/bundle-analyzer": "15.5.5",
     "@tailwindcss/forms": "^0.5.9",
     "@tailwindcss/postcss": "next",
     "@vercel/analytics": "^1.5.0",
@@ -26,7 +26,7 @@
     "hast-util-from-html-isomorphic": "^2.0.0",
     "image-size": "2.0.2",
     "lightgallery": "^2.9.0",
-    "next": "15.5.4",
+    "next": "15.5.5",
     "next-contentlayer2": "0.5.8",
     "next-themes": "^0.4.6",
     "pliny": "0.4.1",
