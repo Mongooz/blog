@@ -62,6 +62,7 @@ export default function Home({ posts }) {
                     slug={slug}
                     date={date}
                     locale={siteMetadata.locale}
+                    tags={[]}
                   />
                 </li>
               )
@@ -89,6 +90,7 @@ export default function Home({ posts }) {
                     slug={slug}
                     date={date}
                     locale={siteMetadata.locale}
+                    tags={[]}
                   />
                 </li>
               )

@@ -79,8 +79,8 @@ export default function ListLayoutWithTags({
   return (
     <>
       <div>
-        <div className="flex xl:space-x-8 overflow-auto flex-wrap xl:flex-nowrap space-y-5 xl:space-y-0">
-          <div className="h-full max-h-screen min-w-[280px] w-full xl:w-auto flex-wrap overflow-auto rounded-sm bg-gray-50 pt-5 shadow-md sm:flex dark:bg-gray-900/70 dark:shadow-gray-800/40">
+        <div className="flex flex-wrap space-y-5 overflow-auto xl:flex-nowrap xl:space-y-0 xl:space-x-8">
+          <div className="h-full max-h-screen w-full min-w-[280px] flex-wrap overflow-auto rounded-sm bg-gray-50 pt-5 shadow-md sm:flex xl:w-auto dark:bg-gray-900/70 dark:shadow-gray-800/40">
             <div className="px-6 py-4">
               {pathname.startsWith('/blog') ? (
                 <h3 className="text-primary-500 font-bold uppercase">All Posts</h3>
