@@ -6,7 +6,7 @@ import NewsletterForm from 'pliny/ui/NewsletterForm'
 
 const MAX_DISPLAY = 5
 
-export default function Home({ posts }: any) {
+export default function Home({ posts }) {
   const ourStoryPosts = posts.filter((post: { tags: string[] }) =>
     post.tags?.some((tag: string) => tag === 'Our Story')
   )
@@ -17,7 +17,7 @@ export default function Home({ posts }: any) {
   return (
     <>
       <header className="">
-        <div className="w-full bg-[url(/static/images/banner.jpg)] bg-cover bg-center my-6 shadow-lg shadow rounded-lg overflow-hidden">
+        <div className="my-6 w-full overflow-hidden rounded-lg bg-[url(/static/images/banner.jpg)] bg-cover bg-center shadow shadow-lg">
           <div className="flex h-full w-full items-center justify-center bg-black/30 py-8 backdrop-opacity-30">
             <div className="text-center">
               <div className="container mx-auto px-4">
@@ -28,7 +28,7 @@ export default function Home({ posts }: any) {
                   <Link
                     href={`/blog`}
                     className="hover:bg-primary-100 mt-8 inline-block w-full rounded border-2 border-transparent bg-gray-50 px-8 py-4 text-sm font-bold text-gray-800 uppercase transition duration-200 md:mr-6 md:w-auto"
-                  > 
+                  >
                     Discover the charm of the hobby farm
                   </Link>
                 </div>
@@ -38,7 +38,7 @@ export default function Home({ posts }: any) {
         </div>
       </header>
 
-      <main className="divide-gray-200 dark:divide-gray-700 px-4">
+      <main className="divide-gray-200 px-4 dark:divide-gray-700">
         <div className="mx-auto max-w-4xl">
           <div className="mt-8">
             <h2 className="text-2xl leading-9 font-extrabold tracking-tight text-gray-900 dark:text-gray-100">
@@ -48,17 +48,17 @@ export default function Home({ posts }: any) {
 
           <ul className="mt-6 space-y-6">
             {!ourStoryPosts.length && <li>No posts found.</li>}
-            {ourStoryPosts.slice(0, MAX_DISPLAY).map((post: any) => {
+            {ourStoryPosts.slice(0, MAX_DISPLAY).map((post) => {
               const { slug, date, title, summary, images } = post
               const imageSource = (images && images[0]?.trimEnd()) || '/static/images/title.png'
 
               return (
                 <li key={slug}>
-                  <article className="group overflow-hidden rounded-lg border border-gray-100 bg-white dark:bg-gray-900 dark:border-gray-800 shadow-sm transition-shadow hover:shadow-md">
+                  <article className="group overflow-hidden rounded-lg border border-gray-100 bg-white shadow-sm transition-shadow hover:shadow-md dark:border-gray-800 dark:bg-gray-900">
                     <Link href={`/blog/${slug}`} className="block sm:flex">
                       <div className="sm:flex-shrink-0">
                         <Image
-                          className="w-full h-44 object-cover sm:h-full sm:w-40"
+                          className="h-44 w-full object-cover sm:h-full sm:w-40"
                           src={imageSource}
                           alt={title}
                           width={128}
@@ -72,7 +72,7 @@ export default function Home({ posts }: any) {
                         <h3 className="mt-2 text-lg font-bold text-gray-900 dark:text-gray-100">
                           {title}
                         </h3>
-                        <p className="mt-2 text-gray-600 dark:text-gray-300 line-clamp-3">
+                        <p className="mt-2 line-clamp-3 text-gray-600 dark:text-gray-300">
                           {summary}
                         </p>
                         <div className="mt-3">
@@ -94,7 +94,7 @@ export default function Home({ posts }: any) {
 
           <ul className="mt-6 space-y-4">
             {!otherPosts.length && <li>No posts found.</li>}
-            {otherPosts.slice(0, MAX_DISPLAY).map((post: any) => {
+            {otherPosts.slice(0, MAX_DISPLAY).map((post) => {
               const { slug, date, title, summary, images } = post
               const imageSource = (images && images[0]?.trimEnd()) || '/static/images/title.png'
 
@@ -117,7 +117,7 @@ export default function Home({ posts }: any) {
                           {title}
                         </Link>
                       </h3>
-                      <p className="mt-1 text-gray-600 dark:text-gray-300 line-clamp-2">
+                      <p className="mt-1 line-clamp-2 text-gray-600 dark:text-gray-300">
                         {summary}
                       </p>
                     </div>
