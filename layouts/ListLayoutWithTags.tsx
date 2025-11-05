@@ -10,6 +10,7 @@ import Link from '@/components/Link'
 import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import tagData from 'app/tag-data.json'
+import BlogPostCard from '@/components/BlogPostCard'
 
 interface PaginationProps {
   totalPages: number
@@ -78,11 +79,8 @@ export default function ListLayoutWithTags({
   return (
     <>
       <div>
-        <h1 className="pb-4 text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:hidden sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 dark:text-gray-100">
-          {title}
-        </h1>
-        <div className="flex sm:space-x-24">
-          <div className="hidden h-full max-h-screen max-w-[280px] min-w-[280px] flex-wrap overflow-auto rounded-sm bg-gray-50 pt-5 shadow-md sm:flex dark:bg-gray-900/70 dark:shadow-gray-800/40">
+        <div className="flex xl:space-x-8 overflow-auto flex-wrap xl:flex-nowrap space-y-5 xl:space-y-0">
+          <div className="h-full max-h-screen min-w-[280px] w-full xl:w-auto flex-wrap overflow-auto rounded-sm bg-gray-50 pt-5 shadow-md sm:flex dark:bg-gray-900/70 dark:shadow-gray-800/40">
             <div className="px-6 py-4">
               {pathname.startsWith('/blog') ? (
                 <h3 className="text-primary-500 font-bold uppercase">All Posts</h3>
@@ -124,53 +122,15 @@ export default function ListLayoutWithTags({
                 const imageSource = (images && images[0]?.trimEnd()) || '/static/images/title.png'
                 return (
                   <li key={path} className="pb-5">
-                    <article className="flex flex-col space-y-2 xl:space-y-0">
-                      <div className="grid gap-4 pb-4 md:grid-cols-12 md:gap-6">
-                        <dl className="order-3 md:order-1 md:col-span-3">
-                          <div className="space-y-3">
-                            <Link href={`/${path}`}>
-                              <Image
-                                className="h-32 w-32 rounded-lg transition duration-300 ease-in-out hover:scale-110"
-                                src={imageSource}
-                                alt={title}
-                                width={3303}
-                                height={939}
-                              />
-                            </Link>
-                          </div>
-                        </dl>
-                        <dl className="order-4 md:order-2 md:col-span-9">
-                          <dl>
-                            <dt className="sr-only">Published on</dt>
-                            <dd className="text-base leading-6 font-medium text-gray-500 dark:text-gray-400">
-                              <time dateTime={date} suppressHydrationWarning>
-                                {formatDate(date, siteMetadata.locale)}
-                              </time>
-                            </dd>
-                          </dl>
-                          <div className="space-y-3">
-                            <div>
-                              <h2 className="text-2xl leading-8 font-bold tracking-tight">
-                                <Link
-                                  href={`/${path}`}
-                                  className="text-primary-900 dark:text-primary-100"
-                                >
-                                  {title}
-                                </Link>
-                              </h2>
-                              <div className="flex flex-wrap">
-                                {tags?.map((tag) => (
-                                  <Tag key={tag} text={tag} />
-                                ))}
-                              </div>
-                            </div>
-                            <div className="prose max-w-none text-gray-500 dark:text-gray-400">
-                              {summary}
-                            </div>
-                          </div>
-                        </dl>
-                      </div>
-                    </article>
+                    <BlogPostCard
+                      title={title}
+                      summary={summary}
+                      imageSource={imageSource}
+                      slug={path.replace('/blog/', '')}
+                      date={date}
+                      tags={tags}
+                      locale={siteMetadata.locale}
+                    />
                   </li>
                 )
               })}
