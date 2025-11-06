@@ -8,7 +8,7 @@ const BlogPostCard = ({ title, summary, imageSource, slug, date, tags, locale = 
     <Link href={`/blog/${slug}`} className="flex">
       <div className="relative flex-shrink-0">
         <Image
-          className="h-full w-56 object-cover"
+          className="h-full w-40 object-cover"
           src={imageSource}
           alt={title}
           width={256}
@@ -23,8 +23,8 @@ const BlogPostCard = ({ title, summary, imageSource, slug, date, tags, locale = 
           </time>
         </div>
       </div>
-      <div className="p-4">
-        <h3 className="mt-2 text-lg font-bold text-gray-900 dark:text-gray-100">{title}</h3>
+      <div className="p-2 sm:p-4">
+        <h3 className="text-md font-bold text-gray-900 sm:text-lg dark:text-gray-100">{title}</h3>
         {!!tags?.length && (
           <div className="flex flex-wrap">
             {tags.map((tag) => (
@@ -32,9 +32,11 @@ const BlogPostCard = ({ title, summary, imageSource, slug, date, tags, locale = 
             ))}
           </div>
         )}
-        <p className="mt-2 line-clamp-4 text-gray-600 dark:text-gray-300">{summary}</p>
-        <div className="mt-3">
-          <span className="text-primary-500 font-medium">Read more &rarr;</span>
+        <p className="sm:text-md mt-1 mb-1 line-clamp-6 text-sm text-gray-600 sm:line-clamp-4 dark:text-gray-300">
+          {summary}
+        </p>
+        <div className="mt-1 hidden sm:block">
+          <span className="text-primary-500 sm:text-md text-sm font-medium">Read more &rarr;</span>
         </div>
       </div>
     </Link>

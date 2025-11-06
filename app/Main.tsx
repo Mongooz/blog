@@ -40,6 +40,12 @@ export default function Home({ posts }) {
       </header>
 
       <main className="divide-gray-200 dark:divide-gray-700">
+        <div>
+          <p className="text-lg leading-7 text-gray-700 dark:text-gray-300">
+            {siteMetadata.description}
+          </p>
+        </div>
+
         <div className="mx-auto">
           <div className="mt-8">
             <h2 className="text-2xl leading-9 font-extrabold tracking-tight text-gray-900 dark:text-gray-100">
@@ -47,7 +53,7 @@ export default function Home({ posts }) {
             </h2>
           </div>
 
-          <ul className="mt-6 space-y-6">
+          <ul className="mt-6 space-y-2">
             {!ourStoryPosts.length && <li>No posts found.</li>}
             {ourStoryPosts.slice(0, MAX_DISPLAY).map((post) => {
               const { slug, date, title, summary, images } = post
