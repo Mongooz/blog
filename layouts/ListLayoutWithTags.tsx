@@ -126,7 +126,7 @@ export default function ListLayoutWithTags({
                       title={title}
                       summary={summary}
                       imageSource={imageSource}
-                      slug={path.replace('/blog/', '')}
+                      slug={path.replace('blog/', '')}
                       date={date}
                       tags={tags}
                       locale={siteMetadata.locale}
