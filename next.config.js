@@ -68,9 +68,6 @@ module.exports = () => {
     basePath,
     reactStrictMode: true,
     pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
-    eslint: {
-      dirs: ['app', 'components', 'layouts', 'scripts'],
-    },
     images: {
       localPatterns: [
         {
@@ -87,6 +84,14 @@ module.exports = () => {
       })
 
       return config
+    },
+    turbopack: {
+      rules: {
+        "*.svg": {
+          loaders: ["@svgr/webpack"],
+          as: "*.js", // Treat SVGs as JavaScript modules after processing
+        },
+      },
     },
   })
 }
