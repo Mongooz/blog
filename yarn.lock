@@ -2032,9 +2032,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@esbuild/aix-ppc64@npm:0.27.1":
-  version: 0.27.1
-  resolution: "@esbuild/aix-ppc64@npm:0.27.1"
+"@esbuild/aix-ppc64@npm:0.27.2":
+  version: 0.27.2
+  resolution: "@esbuild/aix-ppc64@npm:0.27.2"
   conditions: os=aix & cpu=ppc64
   languageName: node
   linkType: hard
@@ -2046,9 +2046,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@esbuild/android-arm64@npm:0.27.1":
-  version: 0.27.1
-  resolution: "@esbuild/android-arm64@npm:0.27.1"
+"@esbuild/android-arm64@npm:0.27.2":
+  version: 0.27.2
+  resolution: "@esbuild/android-arm64@npm:0.27.2"
   conditions: os=android & cpu=arm64
   languageName: node
   linkType: hard
@@ -2060,9 +2060,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@esbuild/android-arm@npm:0.27.1":
-  version: 0.27.1
-  resolution: "@esbuild/android-arm@npm:0.27.1"
+"@esbuild/android-arm@npm:0.27.2":
+  version: 0.27.2
+  resolution: "@esbuild/android-arm@npm:0.27.2"
   conditions: os=android & cpu=arm
   languageName: node
   linkType: hard
@@ -2074,9 +2074,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@esbuild/android-x64@npm:0.27.1":
-  version: 0.27.1
-  resolution: "@esbuild/android-x64@npm:0.27.1"
+"@esbuild/android-x64@npm:0.27.2":
+  version: 0.27.2
+  resolution: "@esbuild/android-x64@npm:0.27.2"
   conditions: os=android & cpu=x64
   languageName: node
   linkType: hard
@@ -2088,9 +2088,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@esbuild/darwin-arm64@npm:0.27.1":
-  version: 0.27.1
-  resolution: "@esbuild/darwin-arm64@npm:0.27.1"
+"@esbuild/darwin-arm64@npm:0.27.2":
+  version: 0.27.2
+  resolution: "@esbuild/darwin-arm64@npm:0.27.2"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
@@ -2102,9 +2102,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@esbuild/darwin-x64@npm:0.27.1":
-  version: 0.27.1
-  resolution: "@esbuild/darwin-x64@npm:0.27.1"
+"@esbuild/darwin-x64@npm:0.27.2":
+  version: 0.27.2
+  resolution: "@esbuild/darwin-x64@npm:0.27.2"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
@@ -2116,9 +2116,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@esbuild/freebsd-arm64@npm:0.27.1":
-  version: 0.27.1
-  resolution: "@esbuild/freebsd-arm64@npm:0.27.1"
+"@esbuild/freebsd-arm64@npm:0.27.2":
+  version: 0.27.2
+  resolution: "@esbuild/freebsd-arm64@npm:0.27.2"
   conditions: os=freebsd & cpu=arm64
   languageName: node
   linkType: hard
@@ -2130,9 +2130,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@esbuild/freebsd-x64@npm:0.27.1":
-  version: 0.27.1
-  resolution: "@esbuild/freebsd-x64@npm:0.27.1"
+"@esbuild/freebsd-x64@npm:0.27.2":
+  version: 0.27.2
+  resolution: "@esbuild/freebsd-x64@npm:0.27.2"
   conditions: os=freebsd & cpu=x64
   languageName: node
   linkType: hard
@@ -2144,9 +2144,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@esbuild/linux-arm64@npm:0.27.1":
-  version: 0.27.1
-  resolution: "@esbuild/linux-arm64@npm:0.27.1"
+"@esbuild/linux-arm64@npm:0.27.2":
+  version: 0.27.2
+  resolution: "@esbuild/linux-arm64@npm:0.27.2"
   conditions: os=linux & cpu=arm64
   languageName: node
   linkType: hard
@@ -2158,9 +2158,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@esbuild/linux-arm@npm:0.27.1":
-  version: 0.27.1
-  resolution: "@esbuild/linux-arm@npm:0.27.1"
+"@esbuild/linux-arm@npm:0.27.2":
+  version: 0.27.2
+  resolution: "@esbuild/linux-arm@npm:0.27.2"
   conditions: os=linux & cpu=arm
   languageName: node
   linkType: hard
@@ -2172,9 +2172,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@esbuild/linux-ia32@npm:0.27.1":
-  version: 0.27.1
-  resolution: "@esbuild/linux-ia32@npm:0.27.1"
+"@esbuild/linux-ia32@npm:0.27.2":
+  version: 0.27.2
+  resolution: "@esbuild/linux-ia32@npm:0.27.2"
   conditions: os=linux & cpu=ia32
   languageName: node
   linkType: hard
@@ -2186,9 +2186,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@esbuild/linux-loong64@npm:0.27.1":
-  version: 0.27.1
-  resolution: "@esbuild/linux-loong64@npm:0.27.1"
+"@esbuild/linux-loong64@npm:0.27.2":
+  version: 0.27.2
+  resolution: "@esbuild/linux-loong64@npm:0.27.2"
   conditions: os=linux & cpu=loong64
   languageName: node
   linkType: hard
@@ -2200,9 +2200,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@esbuild/linux-mips64el@npm:0.27.1":
-  version: 0.27.1
-  resolution: "@esbuild/linux-mips64el@npm:0.27.1"
+"@esbuild/linux-mips64el@npm:0.27.2":
+  version: 0.27.2
+  resolution: "@esbuild/linux-mips64el@npm:0.27.2"
   conditions: os=linux & cpu=mips64el
   languageName: node
   linkType: hard
@@ -2214,9 +2214,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@esbuild/linux-ppc64@npm:0.27.1":
-  version: 0.27.1
-  resolution: "@esbuild/linux-ppc64@npm:0.27.1"
+"@esbuild/linux-ppc64@npm:0.27.2":
+  version: 0.27.2
+  resolution: "@esbuild/linux-ppc64@npm:0.27.2"
   conditions: os=linux & cpu=ppc64
   languageName: node
   linkType: hard
@@ -2228,9 +2228,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@esbuild/linux-riscv64@npm:0.27.1":
-  version: 0.27.1
-  resolution: "@esbuild/linux-riscv64@npm:0.27.1"
+"@esbuild/linux-riscv64@npm:0.27.2":
+  version: 0.27.2
+  resolution: "@esbuild/linux-riscv64@npm:0.27.2"
   conditions: os=linux & cpu=riscv64
   languageName: node
   linkType: hard
@@ -2242,9 +2242,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@esbuild/linux-s390x@npm:0.27.1":
-  version: 0.27.1
-  resolution: "@esbuild/linux-s390x@npm:0.27.1"
+"@esbuild/linux-s390x@npm:0.27.2":
+  version: 0.27.2
+  resolution: "@esbuild/linux-s390x@npm:0.27.2"
   conditions: os=linux & cpu=s390x
   languageName: node
   linkType: hard
@@ -2256,9 +2256,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@esbuild/linux-x64@npm:0.27.1":
-  version: 0.27.1
-  resolution: "@esbuild/linux-x64@npm:0.27.1"
+"@esbuild/linux-x64@npm:0.27.2":
+  version: 0.27.2
+  resolution: "@esbuild/linux-x64@npm:0.27.2"
   conditions: os=linux & cpu=x64
   languageName: node
   linkType: hard
@@ -2270,9 +2270,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@esbuild/netbsd-arm64@npm:0.27.1":
-  version: 0.27.1
-  resolution: "@esbuild/netbsd-arm64@npm:0.27.1"
+"@esbuild/netbsd-arm64@npm:0.27.2":
+  version: 0.27.2
+  resolution: "@esbuild/netbsd-arm64@npm:0.27.2"
   conditions: os=netbsd & cpu=arm64
   languageName: node
   linkType: hard
@@ -2284,9 +2284,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@esbuild/netbsd-x64@npm:0.27.1":
-  version: 0.27.1
-  resolution: "@esbuild/netbsd-x64@npm:0.27.1"
+"@esbuild/netbsd-x64@npm:0.27.2":
+  version: 0.27.2
+  resolution: "@esbuild/netbsd-x64@npm:0.27.2"
   conditions: os=netbsd & cpu=x64
   languageName: node
   linkType: hard
@@ -2298,9 +2298,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@esbuild/openbsd-arm64@npm:0.27.1":
-  version: 0.27.1
-  resolution: "@esbuild/openbsd-arm64@npm:0.27.1"
+"@esbuild/openbsd-arm64@npm:0.27.2":
+  version: 0.27.2
+  resolution: "@esbuild/openbsd-arm64@npm:0.27.2"
   conditions: os=openbsd & cpu=arm64
   languageName: node
   linkType: hard
@@ -2312,16 +2312,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@esbuild/openbsd-x64@npm:0.27.1":
-  version: 0.27.1
-  resolution: "@esbuild/openbsd-x64@npm:0.27.1"
+"@esbuild/openbsd-x64@npm:0.27.2":
+  version: 0.27.2
+  resolution: "@esbuild/openbsd-x64@npm:0.27.2"
   conditions: os=openbsd & cpu=x64
   languageName: node
   linkType: hard
 
-"@esbuild/openharmony-arm64@npm:0.27.1":
-  version: 0.27.1
-  resolution: "@esbuild/openharmony-arm64@npm:0.27.1"
+"@esbuild/openharmony-arm64@npm:0.27.2":
+  version: 0.27.2
+  resolution: "@esbuild/openharmony-arm64@npm:0.27.2"
   conditions: os=openharmony & cpu=arm64
   languageName: node
   linkType: hard
@@ -2333,9 +2333,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@esbuild/sunos-x64@npm:0.27.1":
-  version: 0.27.1
-  resolution: "@esbuild/sunos-x64@npm:0.27.1"
+"@esbuild/sunos-x64@npm:0.27.2":
+  version: 0.27.2
+  resolution: "@esbuild/sunos-x64@npm:0.27.2"
   conditions: os=sunos & cpu=x64
   languageName: node
   linkType: hard
@@ -2347,9 +2347,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@esbuild/win32-arm64@npm:0.27.1":
-  version: 0.27.1
-  resolution: "@esbuild/win32-arm64@npm:0.27.1"
+"@esbuild/win32-arm64@npm:0.27.2":
+  version: 0.27.2
+  resolution: "@esbuild/win32-arm64@npm:0.27.2"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
@@ -2361,9 +2361,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@esbuild/win32-ia32@npm:0.27.1":
-  version: 0.27.1
-  resolution: "@esbuild/win32-ia32@npm:0.27.1"
+"@esbuild/win32-ia32@npm:0.27.2":
+  version: 0.27.2
+  resolution: "@esbuild/win32-ia32@npm:0.27.2"
   conditions: os=win32 & cpu=ia32
   languageName: node
   linkType: hard
@@ -2375,9 +2375,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@esbuild/win32-x64@npm:0.27.1":
-  version: 0.27.1
-  resolution: "@esbuild/win32-x64@npm:0.27.1"
+"@esbuild/win32-x64@npm:0.27.2":
+  version: 0.27.2
+  resolution: "@esbuild/win32-x64@npm:0.27.2"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -3109,19 +3109,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/bundle-analyzer@npm:16.0.10":
-  version: 16.0.10
-  resolution: "@next/bundle-analyzer@npm:16.0.10"
+"@next/bundle-analyzer@npm:16.1.0":
+  version: 16.1.0
+  resolution: "@next/bundle-analyzer@npm:16.1.0"
   dependencies:
     webpack-bundle-analyzer: 4.10.1
-  checksum: 7ecb8755972f15aace80556d91bb0fa55d0c4ff5eb1bcf2a51a310dcfcc3870be509f0cece5dafe18a8018f3a14a25b274d0f2003564a3b25c154640860344fc
+  checksum: f6657feda9e7d295d76fbc4a5cf14f189c47624a53c7d62f2a0656def8d2a9870aa46178ab524a986df54aace90537c9b1b2ec52aaf3803800093505570d4ada
   languageName: node
   linkType: hard
 
-"@next/env@npm:16.0.10":
-  version: 16.0.10
-  resolution: "@next/env@npm:16.0.10"
-  checksum: b841830bd158e99f99befa35ddc76a0a11f9a53cfefc1e75b79801aa36b555d5a5a3f3dc05533c051c31b67f08f69f81836c8236907f600b974883b62ef5e8bf
+"@next/env@npm:16.1.0":
+  version: 16.1.0
+  resolution: "@next/env@npm:16.1.0"
+  checksum: 05d59b8a49deb303eab9e1213607d6b35b9fead6c8015ba4bd740fd149f19e29d1b6ace0edb61401dbab40e964789b373178a022358bc3b993c115c20d1e5398
   languageName: node
   linkType: hard
 
@@ -3134,58 +3134,58 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/swc-darwin-arm64@npm:16.0.10":
-  version: 16.0.10
-  resolution: "@next/swc-darwin-arm64@npm:16.0.10"
+"@next/swc-darwin-arm64@npm:16.1.0":
+  version: 16.1.0
+  resolution: "@next/swc-darwin-arm64@npm:16.1.0"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@next/swc-darwin-x64@npm:16.0.10":
-  version: 16.0.10
-  resolution: "@next/swc-darwin-x64@npm:16.0.10"
+"@next/swc-darwin-x64@npm:16.1.0":
+  version: 16.1.0
+  resolution: "@next/swc-darwin-x64@npm:16.1.0"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@next/swc-linux-arm64-gnu@npm:16.0.10":
-  version: 16.0.10
-  resolution: "@next/swc-linux-arm64-gnu@npm:16.0.10"
+"@next/swc-linux-arm64-gnu@npm:16.1.0":
+  version: 16.1.0
+  resolution: "@next/swc-linux-arm64-gnu@npm:16.1.0"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@next/swc-linux-arm64-musl@npm:16.0.10":
-  version: 16.0.10
-  resolution: "@next/swc-linux-arm64-musl@npm:16.0.10"
+"@next/swc-linux-arm64-musl@npm:16.1.0":
+  version: 16.1.0
+  resolution: "@next/swc-linux-arm64-musl@npm:16.1.0"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@next/swc-linux-x64-gnu@npm:16.0.10":
-  version: 16.0.10
-  resolution: "@next/swc-linux-x64-gnu@npm:16.0.10"
+"@next/swc-linux-x64-gnu@npm:16.1.0":
+  version: 16.1.0
+  resolution: "@next/swc-linux-x64-gnu@npm:16.1.0"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@next/swc-linux-x64-musl@npm:16.0.10":
-  version: 16.0.10
-  resolution: "@next/swc-linux-x64-musl@npm:16.0.10"
+"@next/swc-linux-x64-musl@npm:16.1.0":
+  version: 16.1.0
+  resolution: "@next/swc-linux-x64-musl@npm:16.1.0"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@next/swc-win32-arm64-msvc@npm:16.0.10":
-  version: 16.0.10
-  resolution: "@next/swc-win32-arm64-msvc@npm:16.0.10"
+"@next/swc-win32-arm64-msvc@npm:16.1.0":
+  version: 16.1.0
+  resolution: "@next/swc-win32-arm64-msvc@npm:16.1.0"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@next/swc-win32-x64-msvc@npm:16.0.10":
-  version: 16.0.10
-  resolution: "@next/swc-win32-x64-msvc@npm:16.0.10"
+"@next/swc-win32-x64-msvc@npm:16.1.0":
+  version: 16.1.0
+  resolution: "@next/swc-win32-x64-msvc@npm:16.1.0"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -3886,14 +3886,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tailwindcss/forms@npm:^0.5.9":
-  version: 0.5.10
-  resolution: "@tailwindcss/forms@npm:0.5.10"
+"@tailwindcss/forms@npm:^0.5.11":
+  version: 0.5.11
+  resolution: "@tailwindcss/forms@npm:0.5.11"
   dependencies:
     mini-svg-data-uri: ^1.2.3
   peerDependencies:
     tailwindcss: ">=3.0.0 || >= 3.0.0-alpha.1 || >= 4.0.0-alpha.20 || >= 4.0.0-beta.1"
-  checksum: 4526d02edccc4e44599d9588f83e4ac3e9435d137da5638653de2e74d5b612ade449a8c26d075be21692c1ac00a514aaffdb6723e526e3c8314c9a75a9f45979
+  checksum: 7f0f9e87fb0f780066012fc24671a2237f182201b8a9f9ba4b5f3ddff421d22d906172c4d3446ad89dad913bd1a4505afb4522f9d5ecd3b909fd11902157d3d8
   languageName: node
   linkType: hard
 
@@ -5021,6 +5021,15 @@ __metadata:
   version: 1.5.1
   resolution: "base64-js@npm:1.5.1"
   checksum: 669632eb3745404c2f822a18fc3a0122d2f9a7a13f7fb8b5823ee19d1d2ff9ee5b52c53367176ea4ad093c332fd5ab4bd0ebae5a8e27917a4105a4cfc86b1005
+  languageName: node
+  linkType: hard
+
+"baseline-browser-mapping@npm:^2.8.3":
+  version: 2.9.11
+  resolution: "baseline-browser-mapping@npm:2.9.11"
+  bin:
+    baseline-browser-mapping: dist/cli.js
+  checksum: 2c4687cdcb9f74cdc9f584248fda4e3435ec31de192316dfd75ce4cae70cc64e5cc763b8e632ee6a452aa71bd1b9519e478bc190653fd0c30482ab24e49f4eea
   languageName: node
   linkType: hard
 
@@ -6267,36 +6276,36 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild@npm:0.27.1":
-  version: 0.27.1
-  resolution: "esbuild@npm:0.27.1"
+"esbuild@npm:0.27.2":
+  version: 0.27.2
+  resolution: "esbuild@npm:0.27.2"
   dependencies:
-    "@esbuild/aix-ppc64": 0.27.1
-    "@esbuild/android-arm": 0.27.1
-    "@esbuild/android-arm64": 0.27.1
-    "@esbuild/android-x64": 0.27.1
-    "@esbuild/darwin-arm64": 0.27.1
-    "@esbuild/darwin-x64": 0.27.1
-    "@esbuild/freebsd-arm64": 0.27.1
-    "@esbuild/freebsd-x64": 0.27.1
-    "@esbuild/linux-arm": 0.27.1
-    "@esbuild/linux-arm64": 0.27.1
-    "@esbuild/linux-ia32": 0.27.1
-    "@esbuild/linux-loong64": 0.27.1
-    "@esbuild/linux-mips64el": 0.27.1
-    "@esbuild/linux-ppc64": 0.27.1
-    "@esbuild/linux-riscv64": 0.27.1
-    "@esbuild/linux-s390x": 0.27.1
-    "@esbuild/linux-x64": 0.27.1
-    "@esbuild/netbsd-arm64": 0.27.1
-    "@esbuild/netbsd-x64": 0.27.1
-    "@esbuild/openbsd-arm64": 0.27.1
-    "@esbuild/openbsd-x64": 0.27.1
-    "@esbuild/openharmony-arm64": 0.27.1
-    "@esbuild/sunos-x64": 0.27.1
-    "@esbuild/win32-arm64": 0.27.1
-    "@esbuild/win32-ia32": 0.27.1
-    "@esbuild/win32-x64": 0.27.1
+    "@esbuild/aix-ppc64": 0.27.2
+    "@esbuild/android-arm": 0.27.2
+    "@esbuild/android-arm64": 0.27.2
+    "@esbuild/android-x64": 0.27.2
+    "@esbuild/darwin-arm64": 0.27.2
+    "@esbuild/darwin-x64": 0.27.2
+    "@esbuild/freebsd-arm64": 0.27.2
+    "@esbuild/freebsd-x64": 0.27.2
+    "@esbuild/linux-arm": 0.27.2
+    "@esbuild/linux-arm64": 0.27.2
+    "@esbuild/linux-ia32": 0.27.2
+    "@esbuild/linux-loong64": 0.27.2
+    "@esbuild/linux-mips64el": 0.27.2
+    "@esbuild/linux-ppc64": 0.27.2
+    "@esbuild/linux-riscv64": 0.27.2
+    "@esbuild/linux-s390x": 0.27.2
+    "@esbuild/linux-x64": 0.27.2
+    "@esbuild/netbsd-arm64": 0.27.2
+    "@esbuild/netbsd-x64": 0.27.2
+    "@esbuild/openbsd-arm64": 0.27.2
+    "@esbuild/openbsd-x64": 0.27.2
+    "@esbuild/openharmony-arm64": 0.27.2
+    "@esbuild/sunos-x64": 0.27.2
+    "@esbuild/win32-arm64": 0.27.2
+    "@esbuild/win32-ia32": 0.27.2
+    "@esbuild/win32-x64": 0.27.2
   dependenciesMeta:
     "@esbuild/aix-ppc64":
       optional: true
@@ -6352,7 +6361,7 @@ __metadata:
       optional: true
   bin:
     esbuild: bin/esbuild
-  checksum: 9d3542f600561d5f4bbc4736f45ec10f842b70a069eeddbe9423f34105b1699f6dd94fc5e503345cca5099805e323b820c1cf1b41dcc2f1972734fb026e8fe51
+  checksum: 62ec92f8f40ad19922ae7d8dbf0427e41744120a77cc95abdf099dfb484d65fbe3c70cc55b8eccb7f6cb0d14e871ff1f2f76376d476915c2a6d2b800269261b2
   languageName: node
   linkType: hard
 
@@ -9999,20 +10008,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next@npm:16.0.10":
-  version: 16.0.10
-  resolution: "next@npm:16.0.10"
+"next@npm:16.1.0":
+  version: 16.1.0
+  resolution: "next@npm:16.1.0"
   dependencies:
-    "@next/env": 16.0.10
-    "@next/swc-darwin-arm64": 16.0.10
-    "@next/swc-darwin-x64": 16.0.10
-    "@next/swc-linux-arm64-gnu": 16.0.10
-    "@next/swc-linux-arm64-musl": 16.0.10
-    "@next/swc-linux-x64-gnu": 16.0.10
-    "@next/swc-linux-x64-musl": 16.0.10
-    "@next/swc-win32-arm64-msvc": 16.0.10
-    "@next/swc-win32-x64-msvc": 16.0.10
+    "@next/env": 16.1.0
+    "@next/swc-darwin-arm64": 16.1.0
+    "@next/swc-darwin-x64": 16.1.0
+    "@next/swc-linux-arm64-gnu": 16.1.0
+    "@next/swc-linux-arm64-musl": 16.1.0
+    "@next/swc-linux-x64-gnu": 16.1.0
+    "@next/swc-linux-x64-musl": 16.1.0
+    "@next/swc-win32-arm64-msvc": 16.1.0
+    "@next/swc-win32-x64-msvc": 16.1.0
     "@swc/helpers": 0.5.15
+    baseline-browser-mapping: ^2.8.3
     caniuse-lite: ^1.0.30001579
     postcss: 8.4.31
     sharp: ^0.34.4
@@ -10054,7 +10064,7 @@ __metadata:
       optional: true
   bin:
     next: dist/bin/next
-  checksum: 42bd7d3ac64e8740943ed686af8be6d5f27f11c045b8b911004944b36899a8cf07b07c64e255322bcb11d26c9eedb9ad787ffd32bab8aa0a586829332eb3d272
+  checksum: 2679c6abd742b9521b5c15003ac4cca083a21abca035f7754907691661ef2fad15e5646de8a83c64d0100f5048254a0a72325d663f142d4bf692d5bf2e1bca79
   languageName: node
   linkType: hard
 
@@ -12471,9 +12481,9 @@ __metadata:
     "@eslint/eslintrc": ^3.3.3
     "@eslint/js": ^9.39.2
     "@headlessui/react": 2.2.9
-    "@next/bundle-analyzer": 16.0.10
+    "@next/bundle-analyzer": 16.1.0
     "@svgr/webpack": ^8.0.1
-    "@tailwindcss/forms": ^0.5.9
+    "@tailwindcss/forms": ^0.5.11
     "@tailwindcss/postcss": next
     "@tailwindcss/typography": ^0.5.19
     "@types/mdx": ^2.0.12
@@ -12485,7 +12495,7 @@ __metadata:
     body-scroll-lock: ^4.0.0-beta.0
     contentlayer2: 0.5.8
     cross-env: ^10.1.0
-    esbuild: 0.27.1
+    esbuild: 0.27.2
     eslint: ^9.39.2
     eslint-config-next: 16.0.10
     eslint-config-prettier: ^10.1.8
@@ -12498,7 +12508,7 @@ __metadata:
     image-size: 2.0.2
     lightgallery: ^2.9.0
     lint-staged: ^16.2.7
-    next: 16.0.10
+    next: 16.1.0
     next-contentlayer2: 0.5.8
     next-themes: ^0.4.6
     pliny: 0.4.1
